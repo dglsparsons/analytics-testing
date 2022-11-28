@@ -5,6 +5,7 @@ specifiers:
   '@testing-library/react': 13.2.0
   '@testing-library/user-event': 14.2.0
   '@types/react': 18.0.9
+  '@vercel/analytics': ^0.1.5
   jest: 28.1.0
   jest-environment-jsdom: 28.1.0
   next: latest
@@ -13,6 +14,7 @@ specifiers:
   typescript: 4.6.4
 
 dependencies:
+  '@vercel/analytics': 0.1.5_react@18.2.0
   next: 13.0.5_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -983,6 +985,14 @@ packages:
     dependencies:
       '@types/yargs-parser': 21.0.0
     dev: true
+
+  /@vercel/analytics/0.1.5_react@18.2.0:
+    resolution: {integrity: sha512-/k9N8Ea3Yc5A52GlkjzUEbi2vE/izClrOf++ryBkxEfrZM/OZwtHkdNw/QExZ1h/B67RCZLK7bCOnKKrhG7gTg==}
+    peerDependencies:
+      react: ^16.8||^17||^18
+    dependencies:
+      react: 18.2.0
+    dev: false
 
   /abab/2.0.6:
     resolution: {integrity: sha512-j2afSsaIENvHZN2B8GOpF566vZ5WVk5opAiMTvWgaQT8DkbOqsTfvNAvHoRGU2zzP8cPoqys+xHTRDWW8L+/BA==}
